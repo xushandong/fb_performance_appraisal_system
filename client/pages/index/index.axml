@@ -1,0 +1,15 @@
+<!-- 小程序收藏组件，更多高级用法请参考文档：https://docs.alipay.com/mini/component/component-favorite -->
+
+ 
+ <view>
+
+<scroll-view scroll-y="true" class="homeScrollView">
+    <view style="background: red; width: 100px; height: 200px" ></view>
+    <view style="background: green; width: 100px; height: 200px"></view>
+    <view style="background: blue; width: 100px; height: 200px"></view>
+    <view style="background: yellow; width: 100px; height: 200px"></view>
+    <image class="addImage" mode="scaleToFill" src="../../utils/images/home/add.png"/>
+</scroll-view>
+
+
+  </view>

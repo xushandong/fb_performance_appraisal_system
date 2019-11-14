@@ -1,0 +1,29 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/mine/mine"
+  ],
+  "window": {
+    "defaultTitle": "绩效考核系统",
+    "titleBarColor": "#345435"
+  },
+
+  "tabBar": {
+    "textColor": "#dddddd",
+    "selectedColor": "#f4ea2a",
+    "backgroundColor": "#ffffff",
+    "items": [{
+      "pagePath":"pages/index/index",
+      "name":"首页",
+      "icon":"utils/images/home/home.png",
+      "activeIcon":"utils/images/home/home.png"
+    },
+    {
+      "pagePath":"pages/mine/mine",
+      "name":"我的",
+      "icon":"utils/images/home/mine.png",
+      "activeIcon":"utils/images/home/mine.png"
+    }
+    ]
+  }
+}

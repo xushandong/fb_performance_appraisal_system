@@ -1,0 +1,4 @@
+page {
+  background: white;
+  flex: 0.3;
+}
