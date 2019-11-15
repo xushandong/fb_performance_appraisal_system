@@ -1,0 +1,34 @@
+.login_account {
+  margin-left: 15px;
+  margin-top: 30px;
+  width: 30px;
+  height: 30px;
+}
+
+.passwordModule {
+  /* display: flex;
+  flex-direction: row; */
+  margin-top: 25x;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.login_password {
+  width: 30px;
+  height: 30px;
+}
+
+.login_font{
+  font-size: 15px;
+}
+
+.login_loginButton {
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 15px;
+  height: 40px;
+  background-color: gray;
+  border: none;
+  font-size: 16px;
+  line-height: 40px;
+}

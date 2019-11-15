@@ -1,29 +1,36 @@
 {
   "pages": [
-    "pages/index/index",
-    "pages/mine/mine"
+    "pages/home/index",
+    "pages/mine/mine",
+    "pages/mine/login/login"
   ],
   "window": {
     "defaultTitle": "绩效考核系统",
     "titleBarColor": "#345435"
   },
-
   "tabBar": {
     "textColor": "#dddddd",
     "selectedColor": "#f4ea2a",
     "backgroundColor": "#ffffff",
-    "items": [{
-      "pagePath":"pages/index/index",
-      "name":"首页",
-      "icon":"utils/images/home/home.png",
-      "activeIcon":"utils/images/home/home.png"
-    },
-    {
-      "pagePath":"pages/mine/mine",
-      "name":"我的",
-      "icon":"utils/images/home/mine.png",
-      "activeIcon":"utils/images/home/mine.png"
-    }
+    "items": [
+      {
+        "pagePath": "pages/home/index",
+        "name": "首页",
+        "icon": "utils/images/home/home.png",
+        "activeIcon": "utils/images/home/home.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "name": "我的",
+        "icon": "utils/images/home/mine.png",
+        "activeIcon": "utils/images/home/mine.png"
+      },
+      {
+        "pagePath": "pages/mine/login/login",
+        "name": "登陆页",
+        "icon": "utils/images/home/mine.png",
+        "activeIcon": "utils/images/home/mine.png"
+      }
     ]
   }
 }

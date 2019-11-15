@@ -1,0 +1,16 @@
+<view>
+  <!-- 账号框 -->
+  <view>
+      <image class="login_account" mode="scaleToFill" src="../../../utils/images/mine/fb_login_icon.png"/>
+      <input class="login_font" placeholder="请输入账号" onInput="writeAccount" value="{{acount}}"/>
+  </view>
+
+<!-- 密码框 -->
+ <view class="passwordModule">
+   <image class="login_password" mode="scaleToFill" src="../../../utils/images/mine/fb_password_icon.png"/>
+   <input class="login_font" placeholder="请输入密码" onInput="writePassword" password="YES" value="{{password}}"/>
+ </view>
+  
+
+  <button class="login_loginButton" size="default" type="primary" onTap="loginAction" disabled="{{isLoginButtondisabled}}" style="background-color:{{colorValue}}">登录</button>
+</view>
